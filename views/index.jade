@@ -3,9 +3,9 @@ extends layout
 block content
     div.container
         div.page-header
-            h1 <strong>Node.js + MongoDB app WPROWADZONA ZMIANA</strong>
+            h1 <strong>Node.js + MongoDB app WPROWADZONA DRUGA ZMIANA</strong>
         #employees
-            h2= title
+            h2= titleUGA
             - each employee in employees
               div(class="panel panel-primary")
                 div.created_at(class="hidden")= employee.created_at
